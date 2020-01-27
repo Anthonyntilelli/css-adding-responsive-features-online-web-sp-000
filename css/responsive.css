@@ -26,7 +26,11 @@
   #social {
     top: 72px;
   }
-  col-3 p {
+  .col-3 p {
+  -moz-column-count: 2;
+  -webkit-column-count: ;
+  column-count: 3;
+}
     
   }
   
